@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>حراج اليمن</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iLanding
+  * Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
+  * Updated: Nov 12 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+ <header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+     <h1 class="sitename">
+    
+    حراج اليمن
+</h1>
+
+    </a>
+
+    <nav id="navmenu" class="navmenu" dir="rtl">
+      <ul>
+        <li><a href="#hero" class="active">الرئيسية</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#features">خدماتنا</a></li>
+        <li><a href="#features-2">مميزات حراج اليمن</a></li>
+        <li><a href="#faq">الاسئلة الشائعة</a></li>
+        <li><a href="#contact">للتواصل</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+<a class="btn-getstarted" href="#" onclick="openPopup()">اضغط للتواصل معنا</a>
+
+<!-- الخلفية المظلمة -->
+<div id="popup-overlay" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 9999;"></div>
+
+<!-- النافذة المنبثقة -->
+<div id="popup" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 700px; /* تم تكبير النافذة لاستيعاب الأيقونات كلها */
+  background: #0473C0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+  z-index: 10000;
+  animation: popup-show 0.4s ease-in-out;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+  <span style="
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;" 
+    onclick="closePopup()">&times;</span>
+  <h3 style="color: #fff;">: تواصل معنا عبر</h3>
+  
+  <!-- الأيقونات -->
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;">
+    
+    <!-- واتساب -->
+    <a href="https://wa.me/967718787409" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-whatsapp" style="font-size: 50px; color: white;"></i>
+    </a>
+
+    <!-- يوتيوب -->
+    <a href="https://youtube.com/@haraj.alyemen?si=s6nav75ycxNagANt" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-youtube" style="font-size: 50px; color: white;"></i>
+    </a>
+
+    <!-- فيسبوك -->
+    <a href="https://www.facebook.com/haraj.alyemen.co?mibextid=ZbWKwL" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-facebook" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- انستقرام -->
+    <a href="https://www.instagram.com/haraj.alyemen.co?igsh=enRza3ZnYjY0c3Vq" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-instagram" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- سناب شات -->
+    <a href="https://www.snapchat.com/add/haraj.alyemen?share_id=EF5BPxVS10c&locale=ar-EG" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-snapchat" style="font-size: 50px; color: #FFF;"></i>
+    </a>
+
+    <!-- تليجرام -->
+    <a href="https://t.me/haraj_alyemen" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-telegram" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- تيك توك -->
+    <a href="https://www.tiktok.com/@haraj.alyemen?_t=ZS-8t2eVhBm1lS&_r=1" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-tiktok" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- الاتصال -->
+    <a href="tel:+967718787409" style="text-decoration: none;">
+      <i class="bi bi-telephone" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+  </div>
+</div>
+
+<!-- Script -->
+<script>
+  function openPopup() {
+    document.getElementById("popup-overlay").style.display = "block";
+    document.getElementById("popup").style.display = "block";
+    document.body.style.overflow = "hidden"; // منع التمرير
+  }
+
+  function closePopup() {
+    document.getElementById("popup-overlay").style.display = "none";
+    document.getElementById("popup").style.display = "none";
+    document.body.style.overflow = ""; // إعادة التمرير
+  }
+</script>
+
+<!-- CSS للتأثير -->
+<style>
+  @keyframes popup-show {
+    from {
+      transform: translate(-50%, -60%) scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  }
+</style>
+
+
+  </div>
+</header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+            <i class="bi bi-coin"></i>
+                حراج اول منصه يمنية لبيع المنتجات
+              </div>
+
+             <h1 class="mb-4">
+    
+    <span class="accent-text">مرحباً بكم في حراج اليمن</span>
+</h1>
+
+
+              <p class="mb-4 mb-md-5">
+                المنصة الأولى في اليمن لبيع وشراء كل ما تحتاجه بسهولة وأمان. سواء كنت تبحث عن سيارة أحلامك، عقار يناسب احتياجاتك، أو منتجات متنوعة بأسعار تنافسية، ستجد هنا كل ما تبحث عنه. تصفح الإعلانات، وابدأ تجربتك الان
+              </p>
+
+              <div class="hero-buttons">
+               <!-- نافذة منبثقة مدمجة مع الزر -->
+<!-- زر لفتح النافذة المنبثقة -->
+<!-- زر لفتح النافذة المنبثقة -->
+<!-- زر لفتح النافذة المنبثقة -->
+<!-- زر لفتح النافذة المنبثقة -->
+<a href="#popup" class="btn btn-primary me-0 me-sm-2 mx-1" onclick="openPopup()">اضغط للتواصل معنا</a>
+
+<!-- الخلفية المظلمة -->
+<div id="popup-overlay" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 9999;"></div>
+
+<!-- النافذة المنبثقة -->
+<div id="popup" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 700px; /* تم تكبير النافذة لاستيعاب الأيقونات كلها */
+  background: #0473C0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+  z-index: 10000;
+  animation: popup-show 0.4s ease-in-out;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+  <span style="
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;" 
+    onclick="closePopup()">&times;</span>
+  <h3 style="color: #fff; ">: تواصل معنا عبر</h3>
+  
+  <!-- الأيقونات -->
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;">
+    
+    <!-- واتساب -->
+    <a href="https://wa.me/967718787409" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-whatsapp" style="font-size: 50px; color: white;"></i>
+    </a>
+
+    <!-- يوتيوب -->
+    <a href="https://youtube.com/@haraj.alyemen?si=s6nav75ycxNagANt" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-youtube" style="font-size: 50px; color: white;"></i>
+    </a>
+
+    <!-- فيسبوك -->
+    <a href="https://www.facebook.com/haraj.alyemen.co?mibextid=ZbWKwL" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-facebook" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- انستقرام -->
+    <a href="https://www.instagram.com/haraj.alyemen.co?igsh=enRza3ZnYjY0c3Vq" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-instagram" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- سناب شات -->
+    <a href="https://www.snapchat.com/add/haraj.alyemen?share_id=EF5BPxVS10c&locale=ar-EG" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-snapchat" style="font-size: 50px; color: #FFF;"></i>
+    </a>
+
+    <!-- ثريدس -->
+    
+
+    <!-- تليجرام -->
+    <a href="https://t.me/haraj_alyemen" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-telegram" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- تيك توك -->
+    <a href="https://www.tiktok.com/@haraj.alyemen?_t=ZS-8t2eVhBm1lS&_r=1" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-tiktok" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- الاتصال -->
+    <a href="tel:+967718787409" style="text-decoration: none;">
+      <i class="bi bi-telephone" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+  </div>
+</div>
+
+<!-- Script -->
+<script>
+  function openPopup() {
+    document.getElementById("popup-overlay").style.display = "block";
+    document.getElementById("popup").style.display = "block";
+    document.body.style.overflow = "hidden"; // منع التمرير
+  }
+
+  function closePopup() {
+    document.getElementById("popup-overlay").style.display = "none";
+    document.getElementById("popup").style.display = "none";
+    document.body.style.overflow = ""; // إعادة التمرير
+  }
+</script>
+
+<!-- CSS للتأثير -->
+<style>
+  @keyframes popup-show {
+    from {
+      transform: translate(-50%, -60%) scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  }
+</style>
+
+<!-- لتحميل مكتبة Bootstrap Icons -->
+
+
+<!-- عناصر أخرى -->
+<a class="btn btn-link">
+  <i class="bi bi-play-circle me-1"></i>
+ عرض المنتجات
+  </a>
+
+<div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+  <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
+</div>
+
+              <div class="customers-badge">
+                <div class="customer-avatars">
+                  <img src="assets/img/avatar-1.webp" alt="Customer 1" class="avatar">
+                  <img src="assets/img/avatar-2.webp" alt="Customer 2" class="avatar">
+                  <img src="assets/img/avatar-3.webp" alt="Customer 3" class="avatar">
+                  <img src="assets/img/avatar-4.webp" alt="Customer 4" class="avatar">
+                  <img src="assets/img/avatar-5.webp" alt="Customer 5" class="avatar">
+                  <span class="avatar more">120+</span>
+                </div>
+                <p class="mb-0 mt-2">اكثر من 12,000 عميل يثقون بحراج اليمن</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500" dir="rtl">
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+               <i class="bi bi-collection"></i>
+              </div>
+              <div class="stat-content">
+                <h4>منتجات متنوعة</h4>
+                <p class="mb-0">حراج اليمن يجمع بين مختلف المنتجات </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+       <i class="bi bi-currency-exchange"></i>
+              </div>
+              <div class="stat-content">
+                <h4>اسعار تنافسية</h4>
+                <p class="mb-0">جودة مضمونة واسعار اقتصادية</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <div class="stat-content">
+                <h4>تحديثات يومية</h4>
+                <p class="mb-0">مئات المنتجات المضافة يوميا</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="stat-content">
+                <h4>دعم فني وتقني</h4>
+                <p class="mb-0">لاستقبال الشكاوي والملاحظات</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section" dir="rtl">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">من نحن</span>
+            <h2 class="about-title">حراج اليمن الشامل
+            <br>
+           المنصة الاولى باليمن
+            		
+           </h2>
+            <p class="about-description">
+منصة حراج اليمن هي مكانك الأمثل لشراء كل ما تحتاجه بكل سهولة وأمان. نوفر مساحة تجمع بين المنتجات في مختلف المجالات مثل السيارات، العقارات، الأجهزة المنزلية، والالكترونية, والمزيد. هدفنا هو تسهيل عملية الشراء لكل فرد في اليمن وجعلها تجربة مريحة ومضمونة.</p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i>دعم جميع المحافظات اليمنية</li>
+                  <li><i class="bi bi-check-circle-fill"></i>تنوع المنتجات والخدمات</li>
+                  <li><i class="bi bi-check-circle-fill"></i>موثوقية في التعامل</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i>منتجات محدثة يوميا</li>
+                  <li><i class="bi bi-check-circle-fill"></i>دعم متواصل على مدار الساعة</li>
+                  <li><i class="bi bi-check-circle-fill"></i>سهولة البحث عن المنتجات</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="profile d-flex align-items-center gap-3">
+                    <img src="assets/img/haraj.jpg" alt="CEO Profile" class="profile-image">
+                    <div>
+                      <h4 class="profile-name">حــراج الـيـمـن
+               <i id="star" class="bi bi-patch-check-fill"></i>
+                      </h4>
+                      <p class="profile-position">بيع وشراء المنتجات</p>
+                    </div>
+                  </div>
+                </div>
+                <a href="https://wa.me/967718787409">
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                    			
+                      <p class="contact-label"> اضغط للتواصل معنا الان</p>
+                      <p class="contact-number">718787409</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+</a>
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+              <div class="experience-badge floating">
+                 <span>
+                
+                الـــــــــــاف
+               
+               
+                			
+                			الـــمـــــنـــــتـــــجــــــات
+                </span>
+                <p>الـــمــــضـــــــافـــــــة يــــــومــــــــيــــــــا</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section" dir="rtl">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>خدماتنا</h2>
+        <p>نقدم العديد من الخدمات والمنتجات المميزة والعروض القوية التي يحتاجها المستخدم في حراج اليمن الشامل ومنها</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="d-flex justify-content-center">
+
+          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+
+            <li class="nav-item">
+              <a class="nav-link active show " data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                <h4>الاجهزة الالكترونية</h4>
+              </a>
+            </li><!-- End tab nav item -->
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                <h4>السيارات</h4>
+              </a><!-- End tab nav item -->
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                <h4>العقارات</h4>
+              </a>
+            </li><!-- End tab nav item -->
+ <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+                <h4>قطع غيار سيارات</h4>
+              </a><!-- End tab nav item -->
+
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
+                <h4>الحيوانات</h4>
+              </a><!-- End tab nav item -->
+
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
+                <h4>الوظائف</h4>
+              </a><!-- End tab nav item -->
+
+            </li>
+            
+          </ul>
+
+        </div>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>الأجهزة الإلكترونية</h3>
+                <p class="fst-italic">
+                 نقدم مجموعة واسعة من الأجهزة الإلكترونية الجديدة والمستعملة، بما في ذلك:
+                </p>
+                <ul>
+                  <li><i class="bi bi-1-circle-fill"></i> <span>شاشات التلفاز الحديثة بجميع المقاسات</span></li>
+                  <li><i class="bi bi-2-circle-fill"></i> <span>ثلاجات وغسالات بجودة عالية</span></li>
+                  <li><i class="bi bi-3-circle-fill"></i> <span>اجهزة المطبخ مثل الميكروويف والخلاطات</span></li>
+                   <li><i class="bi bi-4-circle-fill"></i> <span>الات عزف وموسيقى مثل البيانو والغيتار</span></li>
+                   <li><i class="bi bi-4-circle-fill"></i> <span>العاب الفيديو مثل البلاي ستيشن والاكس بوكس</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-1.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>الــســيــارات </h3>
+                <p class="fst-italic">
+                  استعرض أفضل السيارات الجديدة والمستعملة بأفضل الأسعار احجز سيارتك الآن واستمتع بتجربة قيادة مميزة
+                </p>
+                <ul>
+                  <li><i class="bi bi-1-circle-fill"></i> <span>سيارات جديدة ومستعمله حسب احتياجك</span></li>
+                  <li><i class="bi bi-2-circle-fill"></i> <span>افضل الاسعار الاقتصادية وبأعلى جودة</span></li>
+                  <li><i class="bi bi-3-circle-fill"></i><span>اكثر من 100+ صنف من السيارات الشائعة</span></li>
+                 
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-2.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>الـــــعــــــقــــــارات</h3>
+                   <p class="fst-italic">
+           نقدم لك أفضل الخيارات العقارية من شقق، فلل، وأراضي تلبي احتياجاتك بأعلى معايير الجودة وبأسعار تنافسية، مع خدمات استشارية شاملة لضمان تجربة سلسة وناجحة.
+                </p>
+              
+                <ul>
+                  <li><i class="bi bi-1-circle-fill"></i> <span>خدمات عقارية شاملة تلبي جميع تطلعاتك</span></li>
+                  <li><i class="bi bi-2-circle-fill"></i> <span>بيع وشراء العقارات بأسعار تنافسية</span></li>
+                  <li><i class="bi bi-3-circle-fill"></i> <span>عقارات تناسب ميزانيتك وتطلعاتك</span></li>
+                   <li><i class="bi bi-4-circle-fill"></i> <span>جودة وشفافية في المعاملات</span></li>
+                </ul>
+               
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-3.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+<div class="tab-pane fade" id="features-tab-5">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>الحيوانات</h3>
+                <p class="fst-italic">
+                 نقدم لك قسمًا خاصًا بكل ما يتعلق بالحيوانات، سواء كنت تبحث عن حيوانات أليفة للتبني أو شراء مستلزمات العناية بها بأفضل الأسعار
+                </p>
+                <ul>
+                  <li><i class="bi bi-1-circle-fill"></i> <span>حيوانات أليفة مثل القطط، الكلاب والطيور</span></li>
+                  <li><i class="bi bi-2-circle-fill"></i> <span>حيوانات المزارع مثل الأغنام والابقار والدجاج</span></li>
+                 
+                 
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-4.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>قطع غيار السيارات</h3>
+                <p class="fst-italic">
+              نوفر لك مجموعة شاملة من قطع غيار السيارات الجديدة والمستعملة بأفضل الأسعار لضمان تشغيل سيارتك بكفاءة عالية.
+                </p>
+                <ul>
+                  <li><i class="bi bi-1-circle-fill"></i> <span>  قطع الغيار مصنوعة وفق أعلى معايير الجودة.</span></li>
+                  <li><i class="bi bi-2-circle-fill"></i> <span>استمتع بأفضل العروض التي تناسب ميزانيتك.</span></li>
+                  <li><i class="bi bi-3-circle-fill"></i><span>مجموعة واسعة تناسب مختلف العلامات التجارية</span></li>
+                 
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-5.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+          
+          <div class="tab-pane fade" id="features-tab-6">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>الــــوظــــــــائـــــــف</h3>
+                <p class="fst-italic">
+                  نوفر فرص عمل مميزة تناسب مهاراتك وخبراتك، مع تحديث يومي لأحدث الوظائف في مختلف المجالات. ابدأ رحلتك المهنية الآن بسهولة واحترافية
+                </p>
+                <ul>
+                  <li><i class="bi bi-1-circle-fill"></i> <span>استعرض أفضل الوظائف المتوفرة في مجالات متعددة</span></li>
+                  <li><i class="bi bi-2-circle-fill"></i> <span>تقدم لوظائف تناسب مهاراتك وخبراتك بسهولة</span></li>
+                  <li><i class="bi bi-3-circle-fill"></i><span>أكثر من 100 فرصة عمل في مختلف المجالات</span></li>
+                  <li><i class="bi bi-4-circle-fill"></i><span>فرص عمل جديدة تُحدَّث يوميًا</span></li>
+                 
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-6.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Features Cards Section -->
+    <section id="features-cards" class="features-cards section" dir="rtl">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box orange">
+              <i class="bi bi-award"></i>
+              <h4>منتجات إلكترونية متنوعة</h4>
+              <p>استعرض أفضل الأجهزة الإلكترونية الحديثة، من الهواتف إلى الأجهزة المنزلية، بأسعار تنافسية</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box blue">
+              <i class="bi bi-patch-check"></i>
+              <h4>معدات زراعية وأدوات صناعية</h4>
+              <p>استعرض المعدات التي تحتاجها لعملك الزراعي أو الصناعي بسهولة</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box green">
+              <i class="bi bi-sunrise"></i>
+              <h4>الأثاث والديكور</h4>
+              <p>اختر من بين مجموعة واسعة من الأثاث والديكورات المنزلية التي تضيف لمسة من الأناقة إلى منزلك</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="feature-box red">
+              <i class="bi bi-shield-check"></i>
+              <h4>خدمات التصميم والتكنولوجيا</h4>
+              <p>احصل على تصميمات مواقع، تطبيقات، متاجر، وخدمات الكترونية بجودة عالية</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Cards Section -->
+
+    <!-- Features 2 Section -->
+    <section id="features-2" class="features-2 section">
+    			  <div class="container section-title" data-aos="fade-up">
+        <h2>مميزات حراج اليمن</h2>
+      
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-4">
+
+         
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                 <i class="bi bi-collection"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>تنوع المنتجات</h3>
+                  <p>يقدم حراج اليمن مجموعة واسعة من المنتجات من مختلف الفئات</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+           <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-code-square"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>سهولة الاستخدام</h3>
+                  <p>تم برمجة وتصميم الموقع ليكون بسيط وسهل الاستخدام</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="phone-mockup text-center">
+              <img src="assets/img/phone-app-screen.webp" alt="Phone Mockup" class="img-fluid">
+            </div>
+          </div><!-- End Phone Mockup -->
+
+          <div class="col-lg-4">
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-person-gear"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>دعم مستمر</h3>
+                  <p>فريق دعم فني متواجد دائمًا لمساعدتك في حال واجهتك أي مشاكل أو استفسارات.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>الاستجابة</h3>
+                  <p>موقعنا متجاوب مع جميع الاجهزة الالكترونية</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features 2 Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row content justify-content-center align-items-center position-relative">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="display-4 mb-4">حراج اليمن الشامل</h2>
+            <p class="mb-4">وجهتك الاولى والمثاليه لشراء جميع المنتجات  والخدمات التي يحتاجها المستخدم مع افضل العروض وارخص الاسعار التي تناسب جميع الفئات 
+            في حال واجهتك اي مشاكل لا تترد بالتواصل معنا على حساباتنا السوشل ميديا بالضغط على الزر ادناه </p>
+          <a href="javascript:void(0);" class="btn btn-cta" onclick="openPopup()">اضغط للتواصل معنا</a>
+
+<!-- الخلفية المظلمة -->
+<div id="popup-overlay" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 9999;"></div>
+
+<!-- النافذة المنبثقة -->
+<div id="popup" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 700px; /* تم تكبير النافذة لاستيعاب الأيقونات كلها */
+  background: #0473C0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+  z-index: 10000;
+  animation: popup-show 0.4s ease-in-out;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+  <span style="
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;" 
+    onclick="closePopup()">&times;</span>
+  <h3 style="color: #fff;">: تواصل معنا عبر</h3>
+  
+  <!-- الأيقونات -->
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;">
+    
+    <!-- واتساب -->
+    <a href="https://wa.me/967718787409" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-whatsapp" style="font-size: 50px; color: white;"></i>
+    </a>
+
+    <!-- يوتيوب -->
+    <a href="https://youtube.com/@haraj.alyemen?si=s6nav75ycxNagANt" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-youtube" style="font-size: 50px; color: white;"></i>
+    </a>
+
+    <!-- فيسبوك -->
+    <a href="https://www.facebook.com/haraj.alyemen.co?mibextid=ZbWKwL" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-facebook" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- انستقرام -->
+    <a href="https://www.instagram.com/haraj.alyemen.co?igsh=enRza3ZnYjY0c3Vq" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-instagram" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- سناب شات -->
+    <a href="https://www.snapchat.com/add/haraj.alyemen?share_id=EF5BPxVS10c&locale=ar-EG" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-snapchat" style="font-size: 50px; color: #FFF;"></i>
+    </a>
+
+    <!-- تليجرام -->
+    <a href="https://t.me/haraj_alyemen" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-telegram" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- تيك توك -->
+    <a href="https://www.tiktok.com/@haraj.alyemen?_t=ZS-8t2eVhBm1lS&_r=1" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-tiktok" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+    <!-- الاتصال -->
+    <a href="tel:+967718787409" style="text-decoration: none;">
+      <i class="bi bi-telephone" style="font-size: 50px; color: #fff;"></i>
+    </a>
+
+  </div>
+</div>
+
+<!-- Script -->
+<script>
+  function openPopup() {
+    document.getElementById("popup-overlay").style.display = "block";
+    document.getElementById("popup").style.display = "block";
+    document.body.style.overflow = "hidden"; // منع التمرير
+  }
+
+  function closePopup() {
+    document.getElementById("popup-overlay").style.display = "none";
+    document.getElementById("popup").style.display = "none";
+    document.body.style.overflow = ""; // إعادة التمرير
+  }
+</script>
+
+<!-- CSS للتأثير -->
+<style>
+  @keyframes popup-show {
+    from {
+      transform: translate(-50%, -60%) scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  }
+</style>
+          </div>
+
+          <!-- Abstract Background Elements -->
+          <div class="shape shape-1">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path d="M47.1,-57.1C59.9,-45.6,68.5,-28.9,71.4,-10.9C74.2,7.1,71.3,26.3,61.5,41.1C51.7,55.9,35,66.2,16.9,69.2C-1.3,72.2,-21,67.8,-36.9,57.9C-52.8,48,-64.9,32.6,-69.1,15.1C-73.3,-2.4,-69.5,-22,-59.4,-37.1C-49.3,-52.2,-32.8,-62.9,-15.7,-64.9C1.5,-67,34.3,-68.5,47.1,-57.1Z" transform="translate(100 100)"></path>
+            </svg>
+          </div>
+
+          <div class="shape shape-2">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path d="M41.3,-49.1C54.4,-39.3,66.6,-27.2,71.1,-12.1C75.6,3,72.4,20.9,63.3,34.4C54.2,47.9,39.2,56.9,23.2,62.3C7.1,67.7,-10,69.4,-24.8,64.1C-39.7,58.8,-52.3,46.5,-60.1,31.5C-67.9,16.4,-70.9,-1.4,-66.3,-16.6C-61.8,-31.8,-49.7,-44.3,-36.3,-54C-22.9,-63.7,-8.2,-70.6,3.6,-75.1C15.4,-79.6,28.2,-58.9,41.3,-49.1Z" transform="translate(100 100)"></path>
+            </svg>
+          </div>
+
+          <!-- Dot Pattern Groups -->
+          <div class="dots dots-1">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+              </pattern>
+              <rect width="100" height="100" fill="url(#dot-pattern)"></rect>
+            </svg>
+          </div>
+
+          <div class="dots dots-2">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <pattern id="dot-pattern-2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+              </pattern>
+              <rect width="100" height="100" fill="url(#dot-pattern-2)"></rect>
+            </svg>
+          </div>
+
+          <div class="shape shape-3">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path d="M43.3,-57.1C57.4,-46.5,71.1,-32.6,75.3,-16.2C79.5,0.2,74.2,19.1,65.1,35.3C56,51.5,43.1,65,27.4,71.7C11.7,78.4,-6.8,78.3,-23.9,72.4C-41,66.5,-56.7,54.8,-65.4,39.2C-74.1,23.6,-75.8,4,-71.7,-13.2C-67.6,-30.4,-57.7,-45.2,-44.3,-56.1C-30.9,-67,-15.5,-74,0.7,-74.9C16.8,-75.8,33.7,-70.7,43.3,-57.1Z" transform="translate(100 100)"></path>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Clients Section -->
+  
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="2302" data-purecounter-duration="1" class="purecounter"></span>
+              <p>عميل</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="725" data-purecounter-duration="1" class="purecounter"></span>
+              <p>منتج وخدمة</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1208" data-purecounter-duration="1" class="purecounter"></span>
+              <p>عملية بيع</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+              <p>دعم فني على مدار 24 ساعة</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+   
+    <!-- Faq Section -->
+    <section class="faq-9 faq section light-background" id="faq" dir="rtl">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5" data-aos="fade-up">
+            <h2 class="faq-title">لديك استفسارات ؟ تفقد الأسئلة الشائعة</h2>
+            <p class="faq-description">هنا نقوم بالاجابة على جميع استفساراتكم الشائعة والتي تم طرحها لنا من قبل عملائنا مستخدمين حراج اليمن</p>
+            <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
+              <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>ما المنتجات او الخدمات التي تقدمونها ؟</h3>
+                <div class="faq-content">
+                  <p>لدينا جميع المنتجات والخدمات التي يحتاجها عميلنا..ونقوم ايضا بتوفير المنتجات حسب الطلب </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>ما هو حراج اليمن ؟</h3>
+                <div class="faq-content">
+                  <p>حراج اليمن هو سوق إلكتروني يسمح للمستخدمين بشراء مختلف أنواع المنتجات بسهولة عبر الإنترنت، مما يتيح لهم الوصول إلى سوق واسع داخل اليمن.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>هل هناك دعم فني متاح في حال واجهت مشكلة ؟</h3>
+                <div class="faq-content">
+                  <p>
+نعم عبر حساباتنا السوشل ميديا الموضحة بالموقع او الاتصال على الرقم الساخن : 718787409
+                  			
+                  			</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>هل يمكنني شراء السيارات عبر حراج اليمن؟</h3>
+                <div class="faq-content">
+                  <p>نعم، يمكنك شراء السيارات الجديدة والمستعملة</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>هل يوجد قسم خاص بالعقارات</h3>
+                <div class="faq-content">
+                  <p>بالتأكيد هناك قسم للعقارات في حراج اليمن </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+             
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Faq Section -->
+
+   
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>للتواصل</h2>
+        <p>في حال كان لديك اي استفسارات اضافية تواصل معنا عبر المعلومات الموضحه ادناه</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100" dir="rtl">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>معلومات التواصل</h3>
+              <p>هنا جميع معلومات التواصل الخاصة بموقع حراج اليمن الالكتروني</p>
+             
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>موقعنا</h4>
+                  <p>اليمن</p>
+                 
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>رقم الهاتف</h4>
+                  <p>967718787409+</p>
+                 
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>البريد الإلكتروني</h4>
+                  <p>haraj.alyemen.co@gmail.com</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer" dir="rtl">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">حراج اليمن</span>
+          </a>
+          <div class="footer-contact pt-3">
+       
+            <p class="mt-3"><strong>رقم الهاتف:</strong> <span>+967718787409</span></p>
+            <p><strong>البريد الإلكتروني:</strong> <span>haraj.alyemen.co@gmail.com</span></p>
+          </div>
+         
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>روابط مفيدة</h4>
+          <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#features">خدماتنا</a></li>
+           
+          </ul>
+        </div>
+
+      
+    <div class="container copyright text-center mt-4">
+      <p>© <span>جميع الحقوق محفوظة لـ</span> <strong class="px-1 sitename">حراج اليمن</strong> <span></span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+       تم تصميمه وتطويرة بواسطة <a href="https://wa.me/967738889982">سهم الحميقاني</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
